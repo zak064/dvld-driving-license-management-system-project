@@ -1,0 +1,29 @@
+cat > .gitignore <<'EOF'
+# Visual Studio
+.vs/
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# User files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs and cache
+*.log
+*.cache
+*.pdb
+
+# Compiled files - do not upload
+*.exe
+*.dll
+
+# NuGet
+packages/
+*.nupkg
+EOF
