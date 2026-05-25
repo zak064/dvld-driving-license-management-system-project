@@ -1,8 +1,24 @@
-# DVLD – Driving License Management System
+<div align="center">
 
-A desktop application for managing driving license services, built with **C#**, **WinForms**, **SQL Server**, **ADO.NET**, and **3-Tier Architecture**.
+# 🚗 DVLD – Driving License Management System
 
-The system is designed to manage people, users, drivers, driving license applications, tests, appointments, local licenses, international licenses, renewals, replacement licenses, and detained licenses.
+### A desktop application for managing driving license services
+
+<p>
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
+  <img src="https://img.shields.io/badge/.NET_Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
+  <img src="https://img.shields.io/badge/WinForms-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
+  <img src="https://img.shields.io/badge/ADO.NET-6A1B9A?style=for-the-badge&logo=dotnet&logoColor=white" />
+  <img src="https://img.shields.io/badge/OOP-0A66C2?style=for-the-badge&logo=codeforces&logoColor=white" />
+  <img src="https://img.shields.io/badge/3--Tier_Architecture-FF9800?style=for-the-badge&logo=dependabot&logoColor=white" />
+</p>
+
+<p>
+  A full desktop management system built with <strong>C#</strong>, <strong>WinForms</strong>, <strong>SQL Server</strong>, and <strong>ADO.NET</strong>.
+</p>
+
+</div>
 
 ---
 
@@ -10,34 +26,44 @@ The system is designed to manage people, users, drivers, driving license applica
 
 **DVLD** stands for **Driving & Vehicle License Department**.
 
-This project simulates a real driving license department system. It helps employees manage the full process of issuing and managing driving licenses, from registering people and applications to scheduling tests and issuing licenses.
+This project simulates a real driving license department system. It helps manage the full workflow of driving license services, from registering people and applications to scheduling tests, issuing licenses, renewing licenses, and handling detained licenses.
+
+The system is designed to manage:
+
+- People
+- Users
+- Drivers
+- Driving license applications
+- Tests and appointments
+- Local licenses
+- International licenses
+- License renewals
+- Replacement licenses
+- Detained licenses
 
 ---
 
 ## 🚀 Features
 
-- People management
-- User management
-- Login system
-- Driver management
-- Local driving license applications
-- License classes management
-- Application types management
-- Test types management
-- Test appointments
-- Test results
-- Local license issuing
-- International license issuing
-- License renewal
-- Replacement for lost licenses
-- Replacement for damaged licenses
-- Detained licenses management
-- Release detained licenses
-- Search and filtering
-- Data validation
-- Image handling
-- User controls
-- Business rules validation
+- 👤 People management
+- 👥 User management
+- 🔐 Login system
+- 🚗 Driver management
+- 📄 Local driving license applications
+- 🪪 License classes management
+- 📋 Application types management
+- 🧪 Test types and appointments
+- ✅ Test result handling
+- 🌍 International license issuing
+- 🔄 License renewal
+- 🛠️ Replacement for lost or damaged licenses
+- ⛔ Detained licenses management
+- 💰 Fine payment and detained license release
+- 🔍 Search and filtering
+- ✔️ Data validation
+- 🖼️ Image handling
+- 🧩 User controls
+- 🧠 Business rules validation
 
 ---
 
@@ -55,7 +81,7 @@ This project simulates a real driving license department system. It helps employ
 - Edit user information
 - Activate or deactivate users
 - Manage login information
-- Track current logged-in user
+- Track the current logged-in user
 
 ### 🚗 Drivers Management
 - Manage driver records
@@ -94,16 +120,22 @@ This project simulates a real driving license department system. It helps employ
 
 ## 🛠️ Technologies Used
 
-- **C#**
-- **.NET Framework**
-- **Windows Forms**
-- **SQL Server**
-- **ADO.NET**
-- **3-Tier Architecture**
-- **Object-Oriented Programming**
-- **SQL Queries**
-- **User Controls**
-- **Delegates & Events**
+<div align="center">
+
+| Technology | Description |
+|------------|-------------|
+| **C#** | Main programming language |
+| **.NET Framework** | Application framework |
+| **Windows Forms** | Desktop user interface |
+| **SQL Server** | Database management system |
+| **ADO.NET** | Database connectivity |
+| **OOP** | Object-oriented programming principles |
+| **3-Tier Architecture** | Separation of Presentation, Business, and Data Access layers |
+| **SQL Queries** | Data retrieval and database operations |
+| **User Controls** | Reusable WinForms UI components |
+| **Delegates & Events** | Communication and event-driven programming |
+
+</div>
 
 ---
 
@@ -117,18 +149,18 @@ Presentation Layer
 ├── Windows Forms UI
 ├── User Controls
 ├── Validation
-└── User interaction
+└── User Interaction
 
 Business Layer
 │
-├── Business rules
-├── Application logic
-├── Validation logic
-└── Object-oriented classes
+├── Business Rules
+├── Application Logic
+├── Validation Logic
+└── Object-Oriented Classes
 
 Data Access Layer
 │
-├── SQL Server connection
-├── CRUD operations
+├── SQL Server Connection
+├── CRUD Operations
 ├── ADO.NET
-└── Database queries
+└── Database Queries
