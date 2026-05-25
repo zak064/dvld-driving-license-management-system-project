@@ -2,7 +2,7 @@
 
 # 🚗 DVLD – Driving License Management System
 
-### A desktop application for managing driving license services.
+### A desktop application for managing driving license services
 
 <p>
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
